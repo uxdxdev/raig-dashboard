@@ -1,3 +1,4 @@
+var cool = require('cool-ascii-faces');
 var express = require('express');
 var app = express();
 
@@ -14,8 +15,7 @@ app.get('/', function(request, response) {
 });
 
 app.get('/becca', function(request, response) {
-  response.send('Becca is the best x');
-  response.end();
+  response.send('Becca is the best x' + cool());
 });
 
 app.listen(app.get('port'), function() {
