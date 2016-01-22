@@ -1,8 +1,8 @@
 {
-  "name": "Node.js Getting Started",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "name": "RAIG Dashboard",
+  "description": "Dashboard web application for RAIG service",
+  "repository": "https://github.com/damorton/raig-dashboard.git",
+  "logo": "https://avatars1.githubusercontent.com/u/3397660?v=3&s=460",
   "keywords": ["node", "express", "static"],
-  "image": "heroku/nodejs"
+  "image": "https://avatars1.githubusercontent.com/u/3397660?v=3&s=460"
 }
