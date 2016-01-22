@@ -4,6 +4,12 @@ var pg = require('pg');
 var path = require('path');
 var connectionString = require(path.join(__dirname, '../', 'config'));
 
+/* GET home page. */
+router.get('/', function(req, res, next) {
+  res.render('index', { title: 'Express' });
+});
+
+
 // Create
 router.post('/api/v1/raig', function(request, response) {
 
